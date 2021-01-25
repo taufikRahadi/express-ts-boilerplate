@@ -12,7 +12,6 @@ export class MulterHelper {
   }
 
   public static upload() {
-    console.log('anjing')
     const multerUpload = multer({
       storage: multer.diskStorage({
         destination: './public/file-upload',

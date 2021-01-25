@@ -18,6 +18,25 @@
 	},
 	"openapi": "3.0.0",
 	"paths": {
+		"/v1/tutor": {
+			"get": {
+				"operationId": "Read",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		},
 		"/v1/upload": {
 			"get": {
 				"operationId": "UploadHandsign",
